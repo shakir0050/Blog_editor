@@ -36,4 +36,18 @@ A full-stack Blog Editor application built using the **MERN stack** (MongoDB, Ex
 ---
 
 ## 📁 Project Structure
+blog-editor/
+│
+├── backend/
+│ ├── index.js # Express server
+│ └── models/Blog.js # Mongoose schema
+│
+├── frontend/
+│ ├── src/
+│ │ ├── App.js # Main React component
+│ │ └── index.js # Entry point
+│ └── public/
+│
+├── package.json # Project metadata and dependencies
+└── README.md # This file
 
